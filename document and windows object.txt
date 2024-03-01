@@ -1,0 +1,39 @@
+In JavaScript, both document and window are global objects that are part of the Browser Object Model (BOM)
+ and are essential for interacting with the web page and its environment. However, they serve different purposes 
+ and have distinct properties and methods.
+
+
+Window Object:
+
+
+Global Scope: The window object represents the global window in which all JavaScript code runs within a web browser. It serves as the top-level object, containing all other objects, functions, and variables.
+
+Browser Context: It provides access to the browser window itself, including features like navigation, history, location, and the document loaded in the window.
+
+Properties and Methods: The window object includes properties and methods related to the browser window, such as window.location, window.history, window.alert(), window.setTimeout(), etc.
+
+Event Handling: It also handles events related to the window, such as window.onload, window.onresize, window.onunload, etc.
+
+
+Document Object:
+
+
+HTML Document Representation: The document object represents the HTML document loaded in the window. It serves as an interface to interact with the content of the web page, such as elements, styles, and events.
+
+DOM Manipulation: It provides methods and properties to manipulate the structure, content, and styling of the document, such as document.getElementById(), document.createElement(), document.querySelector(), etc.
+
+Element Selection and Modification: The document object allows selecting and modifying elements within the document, accessing their properties, attributes, and content.
+
+Event Handling: It also handles events related to the document, such as document.onclick, document.onkeydown, document.addEventListener(), etc.
+
+
+Differences:
+
+
+Scope: While both are global objects, window represents the browser window, whereas document represents the HTML document loaded in that window.
+
+Functionality: window deals with the overall browser environment and controls browser features, navigation, and window-related operations. On the other hand, document deals specifically with the structure, content, and manipulation of the HTML document.
+
+Hierarchy: window is the top-level object, encompassing the entire browser window and its environment, while document is a property of the window object and represents the currently loaded HTML document within that window.
+
+In summary, while both window and document are critical for web development, they serve different purposes and provide distinct functionalities for interacting with the browser window and the HTML document, respectively.
